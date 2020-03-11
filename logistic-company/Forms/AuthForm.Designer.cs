@@ -29,38 +29,40 @@
         private void InitializeComponent()
         {
             this.pnlNameCompany = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblNameCompany = new System.Windows.Forms.Label();
             this.pnlContent = new System.Windows.Forms.Panel();
             this.btnAuth = new System.Windows.Forms.Button();
             this.tbxPassword = new System.Windows.Forms.TextBox();
             this.tbxLogin = new System.Windows.Forms.TextBox();
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblLogin = new System.Windows.Forms.Label();
+            this.btnReg = new System.Windows.Forms.Button();
             this.pnlNameCompany.SuspendLayout();
             this.pnlContent.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlNameCompany
             // 
-            this.pnlNameCompany.Controls.Add(this.label1);
+            this.pnlNameCompany.Controls.Add(this.lblNameCompany);
             this.pnlNameCompany.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlNameCompany.Location = new System.Drawing.Point(0, 0);
             this.pnlNameCompany.Name = "pnlNameCompany";
             this.pnlNameCompany.Size = new System.Drawing.Size(369, 40);
             this.pnlNameCompany.TabIndex = 0;
             // 
-            // label1
+            // lblNameCompany
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(29, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(304, 18);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Логистическая компания Trucks Cargo";
+            this.lblNameCompany.AutoSize = true;
+            this.lblNameCompany.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblNameCompany.Location = new System.Drawing.Point(29, 9);
+            this.lblNameCompany.Name = "lblNameCompany";
+            this.lblNameCompany.Size = new System.Drawing.Size(304, 18);
+            this.lblNameCompany.TabIndex = 0;
+            this.lblNameCompany.Text = "Логистическая компания Trucks Cargo";
             // 
             // pnlContent
             // 
+            this.pnlContent.Controls.Add(this.btnReg);
             this.pnlContent.Controls.Add(this.btnAuth);
             this.pnlContent.Controls.Add(this.tbxPassword);
             this.pnlContent.Controls.Add(this.tbxLogin);
@@ -116,6 +118,16 @@
             this.lblLogin.TabIndex = 1;
             this.lblLogin.Text = "Логин:";
             // 
+            // btnReg
+            // 
+            this.btnReg.Location = new System.Drawing.Point(110, 137);
+            this.btnReg.Name = "btnReg";
+            this.btnReg.Size = new System.Drawing.Size(175, 23);
+            this.btnReg.TabIndex = 6;
+            this.btnReg.Text = "Регистрация";
+            this.btnReg.UseVisualStyleBackColor = true;
+            this.btnReg.Click += new System.EventHandler(this.btnReg_Click);
+            // 
             // AuthForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -137,13 +149,14 @@
         #endregion
 
         private System.Windows.Forms.Panel pnlNameCompany;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblNameCompany;
         private System.Windows.Forms.Panel pnlContent;
         private System.Windows.Forms.TextBox tbxLogin;
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.Label lblLogin;
         private System.Windows.Forms.TextBox tbxPassword;
         private System.Windows.Forms.Button btnAuth;
+        private System.Windows.Forms.Button btnReg;
     }
 }
 

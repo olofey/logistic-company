@@ -1,6 +1,7 @@
 ﻿using System;
 using logistic_company.App_Data;
 using System.Windows.Forms;
+using logistic_company.Forms;
 
 namespace logistic_company
 {
@@ -10,6 +11,8 @@ namespace logistic_company
         {
             InitializeComponent();
         }
+
+        static RegForm regForm = new RegForm();
 
         private void btnAuth_Click(object sender, EventArgs e)
         {
@@ -21,6 +24,11 @@ namespace logistic_company
             {
                 DBConnection.GetAuthClient(tbxLogin.Text, tbxPassword.Text);
             }
+        }
+
+        private void btnReg_Click(object sender, EventArgs e)
+        {
+            regForm.ShowDialog();
         }
     }
 }

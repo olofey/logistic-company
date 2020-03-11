@@ -9,3 +9,4 @@ C:\Projects\logistic-company\logistic-company\obj\Debug\logistic_company.Propert
 C:\Projects\logistic-company\logistic-company\obj\Debug\logistic-company.csproj.GenerateResource.cache
 C:\Projects\logistic-company\logistic-company\obj\Debug\logistic-company.exe
 C:\Projects\logistic-company\logistic-company\obj\Debug\logistic-company.pdb
+C:\Projects\logistic-company\logistic-company\obj\Debug\logistic_company.Forms.RegForm.resources
