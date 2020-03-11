@@ -1,0 +1,11 @@
+C:\Projects\logistic-company\logistic-company\bin\Debug\App_Data\Clients.mdf
+C:\Projects\logistic-company\logistic-company\bin\Debug\App_Data\Clients_log.ldf
+C:\Projects\logistic-company\logistic-company\bin\Debug\logistic-company.exe.config
+C:\Projects\logistic-company\logistic-company\bin\Debug\logistic-company.exe
+C:\Projects\logistic-company\logistic-company\bin\Debug\logistic-company.pdb
+C:\Projects\logistic-company\logistic-company\obj\Debug\logistic-company.csprojAssemblyReference.cache
+C:\Projects\logistic-company\logistic-company\obj\Debug\logistic_company.AuthForm.resources
+C:\Projects\logistic-company\logistic-company\obj\Debug\logistic_company.Properties.Resources.resources
+C:\Projects\logistic-company\logistic-company\obj\Debug\logistic-company.csproj.GenerateResource.cache
+C:\Projects\logistic-company\logistic-company\obj\Debug\logistic-company.exe
+C:\Projects\logistic-company\logistic-company\obj\Debug\logistic-company.pdb
